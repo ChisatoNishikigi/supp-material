@@ -1,1 +1,11 @@
 
+source,category,link,access_note
+Emu,closed-source,https://emu-video.metademolab.com/,official demo or project page; this repository does not redistribute the videos
+Gen-4.5,closed-source,https://runwayml.com/research/introducing-runway-gen-4.5,official research or showcase page; this repository provides source-level references rather than direct media redistribution
+NeverEnds,community-hosted,https://discord.com/channels/1169553300568424530/1169553301373718599,official community entry point hosted on Discord; source access depends on the hosting platform and server permissions; this repository does not redistribute the videos
+Sora2,closed-source,https://openai.com/sora/,official product page; direct signed media URLs are not redistributed here
+Veo3.1,closed-source,https://deepmind.google/models/veo/,official model or showcase page; this repository provides source-level references only
+VideoCrafter2,open-source,https://ailab-cvc.github.io/videocrafter2/,official repository or project page
+VideoPhy2,dataset-derived,https://videophy2.github.io/,public dataset or project page; please follow the original dataset access terms
+VideoPoet,closed-source,https://sites.research.google/videopoet/,official public project page; this repository does not redistribute media files
+Vript,real-video source,https://huggingface.co/datasets/Mutonix/Vript,public dataset page for the real-video source used in GenMix
