@@ -1,1 +1,10 @@
 
+source,type,count
+Emu,closed-source,121
+Gen-4.5,closed-source,60
+NeverEnds,open-source,118
+Sora2,closed-source,165
+Veo3.1,closed-source,132
+VideoCrafter2,open-source,118
+VideoPhy2,dataset-derived,101
+VideoPoet,closed-source,99
