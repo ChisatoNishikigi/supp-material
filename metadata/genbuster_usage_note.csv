@@ -1,1 +1,4 @@
 
+dataset,split,usage
+GenBuster-200K,benchmark,main evaluation in the paper
+GenBuster-200K,test,threshold calibration for score-based training-free baselines only
