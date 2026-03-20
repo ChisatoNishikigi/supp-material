@@ -1,4 +1,3 @@
-
 # GenMix Sources
 
 This document provides additional source-level notes for the mixed-source evaluation set referred to as **GenMix** in the submission.
@@ -7,21 +6,11 @@ This document provides additional source-level notes for the mixed-source evalua
 
 GenMix is constructed to complement the benchmark evaluation by introducing broader source diversity in synthetic videos.
 
-It contains:
-
-- **1,000 real videos** sampled from **Vript**, and
-- **914 synthetic videos** collected from multiple source types.
-
-The synthetic portion includes sources associated with:
-
-- closed-source generation systems,
-- open-source models,
-- community-hosted sources, and
-- publicly released dataset sources.
+It combines real videos from a public real-video source with synthetic videos collected from multiple heterogeneous source types.
 
 ## Source Categories
 
-The synthetic sources in GenMix are grouped into the following categories:
+The synthetic sources in GenMix are grouped into the following categories.
 
 ### Closed-source Systems
 
@@ -59,26 +48,11 @@ The following source is treated as dataset-derived:
 
 For this source, the repository provides a source-level reference to the corresponding public dataset or project page.
 
-## Per-source Synthetic Counts
-
-The synthetic portion of GenMix contains the following per-source counts:
-
-- **Emu**: 121
-- **Gen-4.5**: 60
-- **NeverEnds**: 118
-- **Sora2**: 165
-- **Veo3.1**: 132
-- **VideoCrafter2**: 118
-- **VideoPhy2**: 101
-- **VideoPoet**: 99
-
-These counts sum to **914 synthetic videos** in total.
-
 ## Why a Mixed-source Setting
 
 The purpose of GenMix is to extend evaluation beyond a single benchmark configuration and expose the detector to a broader range of synthetic-video sources.
 
-Compared with a single-source or narrower-source setting, this construction increases variation in:
+Compared with a a single-source or narrower-source setting, this construction increases variation in:
 
 - generation pipelines,
 - visual appearance,
@@ -92,9 +66,8 @@ This design is intended to provide a more heterogeneous evaluation setting for t
 
 The following repository files are relevant to GenMix:
 
-- `DATASET_DETAILS.md` for the overall dataset setting,
-- `DATA_ACCESS.md` for source access principles and redistribution boundaries,
-- `metadata/genmix_source_counts.csv` for the structured per-source count table, and
+- `DATASET_DETAILS.md` for the overall dataset setting and source counts,
+- `DATA_ACCESS.md` for source access principles and redistribution boundaries, and
 - `metadata/source_links.csv` for source-level references and access notes.
 
 ## Summary
