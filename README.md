@@ -22,8 +22,6 @@ It currently focuses on dataset-related supplementary materials, including:
 - access information for public sources.
 
 ## Repository Structure
-
-```text
 .
 ├── README.md
 ├── DATASET_DETAILS.md
