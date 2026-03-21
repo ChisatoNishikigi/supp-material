@@ -18,8 +18,9 @@ It currently focuses on dataset-related supplementary materials, including:
 - additional dataset details,
 - split usage notes,
 - mixed-source dataset composition,
-- metadata tables, and
-- access information for public sources.
+- metadata tables,
+- source-level references and access notes, and
+- a small example directory with source-specific sample videos.
 
 ## Repository Structure
 
