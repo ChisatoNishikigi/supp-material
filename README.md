@@ -20,8 +20,9 @@ It currently focuses on dataset-related supplementary materials, including:
 - mixed-source dataset composition,
 - metadata tables,
 - source-level references and access notes, and
-- a small example directory with source-specific sample videos.
-
+- a small example directory with source-specific sample videos, and
+- complete prompt files associated with the structured prompting pipeline.
+  
 ## Repository Structure
 
 ```text
