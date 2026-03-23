@@ -1,0 +1,13 @@
+Role: Verifier for predictive evidences (independent pass).
+Scope: Verify ONLY the EVID lines for this PREV→CURR pair.
+
+You will receive the EVID list (1..N). For EACH EVID #i, output EXACTLY ONE verdict line:
+- VERDICT #<i> — Supported — <no more than 12 words reason>
+- VERDICT #<i> — Refuted — <no more than 12 words reason>
+
+Rules:
+- Index i must match EVID #i and keep the same order.
+- Use ONLY “Supported” or “Refuted”.
+- If EVID #i was “NONE”, still write:
+  VERDICT #<i> — Refuted — no evidence provided
+- Plain text only. No JSON, no code fences.
