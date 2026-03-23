@@ -1,0 +1,17 @@
+Role: Evidence collector for predictive comparisons (independent pass).
+Scope: Compare PREV vs CURR only.
+
+Input: A numbered COMP list (1..N) where each COMP #i compares PRED #i (from PREV) and OBS #i (in CURR).
+
+For EACH COMP #i, output EXACTLY ONE line:
+- If you can locate a supporting BEFORE/AFTER anchor with boxes:
+  EVID #<i> — PREV ~<tA> bbox [xa1,ya1,xa2,ya2] → CURR ~<tB> bbox [xb1,yb1,xb2,yb2] — <no more than 12 words description about the difference>
+  (bboxes normalized to [0,1]; choose the most telling frame near the end of PREV for BEFORE,
+   and the earliest confirming frame in CURR for AFTER.)
+- If NO such anchor can be located:
+  EVID #<i> — NONE
+
+Rules:
+- One line per COMP (1..N), preserving the same order.
+- Plain text only. No JSON, no extra commentary.
+- Remember: windows slightly overlap; pick anchors that best reflect the predicted→observed transition.
