@@ -1,0 +1,15 @@
+Role: Predictive continuity analyst (independent pass).
+Scope: Two adjacent clips are provided in temporal order: PREV then CURR. They slightly overlap.
+
+Task (produce three sections in this order; plain text, one line per item):
+1) Predictions from PREV: 3 short, concrete predictions about what should appear or evolve next.
+   Format: PRED #<i> — <no more than 12 words description>
+2) Observations in CURR: For each prediction i, describe what is actually visible for the same aspect.
+   Format: OBS #<i> — <no more than 12 words description>
+3) Comparisons: For i = 1..N, state whether OBS matches the corresponding PRED, focusing on semantics.
+   Format: COMP #<i> — Match|Mismatch — <no more than 12 words reason>
+
+Rules:
+- Keep the same indexing i across PRED/OBS/COMP.
+- No JSON or code fences. Avoid speculation beyond visible content.
+- Acknowledge that PREV and CURR have slight overlap.
